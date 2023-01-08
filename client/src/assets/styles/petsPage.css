@@ -1,0 +1,134 @@
+@media screen and (max-width: 768px) {
+  .pet-card img{
+    display: inline-block;
+    vertical-align: top;
+    float: none !important;
+  }
+  .pet-card p{
+    text-align: center !important;
+  }
+
+  #delete-pet {
+    background-color: crimson;
+    right: auto !important; 
+  }
+  
+  #edit-pet {
+    background-color: blue;
+    right: auto !important;
+  
+  }
+
+  .card-btn {
+    position: relative !important;
+    width: 30% !important;
+  }
+    
+}
+
+.pet-card {
+    padding: 0px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-image: linear-gradient(rgb(0, 183, 255), yellow);
+}
+
+.pet-card img {
+  float: left; 
+  padding: 10px;
+}
+
+.col-md-12 {
+  max-width: 980px !important;
+  margin: auto !important;
+}
+
+.pet-card p{
+   text-align: left;
+   font-style: italic;
+   margin-top: 10px;
+   margin-bottom: -15px;
+}
+
+.title{
+    font-weight: bold;
+    font-size: 18px;
+    display: inline;
+    
+}
+
+.attributes {
+    font-weight: normal;
+    font-size: 18px;
+    display: inline;
+    
+}
+
+#delete-pet {
+  background-color: crimson;
+  right: 23%;
+}
+
+#edit-pet {
+  background-color: blue;
+  right: 0.5%;
+
+}
+
+.card-btn {
+  position: absolute;
+  margin: 2%;
+  bottom: 2%;
+  width: 20%;
+}
+
+.btn-primary:active {
+    background-color: #3e8e41;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
+
+  .btn-danger:active {
+    background-color: #3e8e41;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
+
+  #register-btn {
+    border-radius: 20px;
+    padding: 30px 30px;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    margin: 30px;
+    background-color: white; 
+    color: black; 
+    border: 2px solid #4CAF50;
+  }
+
+  #register-btn:hover {
+    background-color: #4CAF50; /* Green */
+    color: white;
+  }
+
+  #del-btn {
+    bottom: 5%;
+    left: 5%;
+    border-radius: 5px;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    padding-left: 10%;
+    padding-right: 10%;
+    text-align: center;
+    background-color: crimson;
+  }
+
+  #cancel-btn {
+    bottom: 5%;
+    right: 5%;
+    border-radius: 5px;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    padding-left: 10%;
+    padding-right: 10%;
+    background-color: dodgerblue;
+  }

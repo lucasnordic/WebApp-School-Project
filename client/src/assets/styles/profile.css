@@ -1,0 +1,75 @@
+.greeting-user {
+    margin-top: 20px;
+    text-align: center;
+    background-image: linear-gradient(rgb(168, 213, 231), rgb(91, 180, 158));
+    font-weight: bold;
+    font-size: 90px;
+    font-style: oblique;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.user-info {
+    padding: 10px;
+    margin-top: 10px;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}  
+
+#header {
+    font-size: 35px;
+    font-style: italic;
+    font-weight: bold;
+
+}
+
+.key {
+    text-align: center;
+    font-size: 25px;
+    font-style: italic;
+}
+
+.value {
+    text-align: center;
+    font-size: 25px;
+    font-style: normal;
+}
+
+#delete-button {
+    border: none;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    border-radius: 10px !important;
+    padding: 10px 10px;
+    font-size: 20px !important;
+    width: 170px;
+    height: 75px;
+    position: absolute;
+    bottom: 10px;
+    right: 1%;
+} 
+ #edit-button {
+    border: none;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    border-radius: 10px !important;
+    padding: 10px 10px;
+    font-size: 20px !important;
+    width: 170px;
+    height: 75px;
+    position: absolute;
+    bottom: 10px;
+    left: 1%;
+ }
+
+ #service-row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ }
+
+ #service-btn {
+    font-style: oblique;
+    font-weight: bold;
+    border-radius: 20px;
+    font-size: 60px;
+    padding: 10px;
+    margin: 50px;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+ }

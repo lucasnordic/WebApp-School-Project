@@ -1,0 +1,137 @@
+.page_background {
+  margin: 0 auto;
+  /* text-align: center; */
+  /* background-image: url(../images/bg_dog-walker.png); */
+  /* background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center; */
+  background-color: rgb(226, 236, 241);
+  position: absolute;
+  width:100%;
+  height: 100%;
+  overflow-x: hidden;
+  background-image: linear-gradient(to bottom, rgba(255,0,0,0), rgba(25,55,155,0.3));
+}
+
+
+.page_content {
+  padding-top: 25px;
+  padding-left: 25px;
+  padding-right: 25px;
+  color: black;
+  background-color: rgb(255, 255, 255, 0.0);
+  /* text-align: left; */
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  margin: auto;
+  /* height: 100%; */ /* Enable or disable? */
+}
+ 
+#form_content { /*TODO: Change to class*/
+  color: black;
+  padding-bottom: 35px;
+  padding-top: 15px;
+  max-width: 770px;
+  margin: auto;
+  background-color: rgba(232, 238, 241, 0.0);
+}
+
+.form_title {
+  max-width: 770px;
+  margin: auto;
+  margin-top: -25px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  padding-left: 25px;
+  padding-right: 25px;
+  background-color: rgb(252, 252, 252, 1);
+  border-radius: 5px;
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 0px;
+  text-align: center;
+  /* font-size: xx-large; */
+}
+
+.form_inputs {
+  max-width: 770px;
+  margin: auto;
+  /* margin-top: -55px; */
+  padding-top: 25px;
+  padding-bottom: 25px;
+  padding-left: 25px;
+  padding-right: 25px;
+  background-color: rgb(252, 252, 252, 1);
+  border-radius: 5px;
+  /* border-top-left-radius: 0px;
+  border-top-right-radius: 0px; */
+  text-align: left;
+}
+ 
+#user_type_info_box {
+  margin-bottom: 25px;
+  margin-top: 5px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 15px;
+  padding-right: 15px;
+  background-color: rgb(255, 255, 255);
+  text-align: left;
+  /* color: aliceblue; */
+  border-radius: 5px;
+}
+ 
+#submit_btn { /*TODO: Change to class*/
+  font-size: x-large;
+  margin-top: 35px;
+  margin-bottom: 35px;
+  width: 50%;
+  margin-left: 25%;
+}
+
+.bottom-wrapper {
+  text-align: center;
+  color: gray;
+}
+
+.footer {
+  height: 0px;
+  background-color: blue;
+  position: absolute;
+  bottom: 0;
+  width:100%;
+}
+
+/* Overrides the css above, when page width is below x.px */
+@media screen and (max-width: 768px) {
+  .page_background {
+    width:100%;
+    height: 100%;
+  }
+
+  .page_content {
+    padding-top: 0%;
+    padding-left: 0%;
+    padding-right: 0%;
+  }
+
+  #form_content {
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    color: black;
+    padding-bottom: 35px;
+    /* background-color: white; */
+  }
+
+  .form_title {
+    text-align: left;
+    font-size: xx-large;
+    margin-bottom: -35px;
+    padding-top: 100px;
+  }
+  
+   .form_inputs {
+     margin-top: -60px;
+    font-size: large;
+  }
+}

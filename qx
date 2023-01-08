@@ -1,0 +1,10 @@
+  MS1_corrections                   [m 735c077 Update .gitlab-ci.yml file 
+* [32mmaster                            [m 735c077 Update .gitlab-ci.yml file 
+  [31mremotes/origin/3-abc-task-petlover[m 1cf51b1 remove required for userInfo
+  [31mremotes/origin/HEAD               [m -> origin/master
+  [31mremotes/origin/M1-EG              [m 4b5fc2b .json
+  [31mremotes/origin/MS1_Task1&2        [m b3f9726 new design for petOwners and pets is implemented.
+  [31mremotes/origin/master             [m 735c077 Update .gitlab-ci.yml file 
+  [31mremotes/origin/petowner_newDesign [m 9c436db deletePet in petOwner is not working.
+  [31mremotes/origin/service_entity     [m 215a06c Trying to fix User module not found
+  [31mremotes/origin/userinfo_feature   [m 9878c91 removed old code from petlover and petowner models. Added userinfo model
